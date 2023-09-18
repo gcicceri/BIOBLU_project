@@ -1,4 +1,21 @@
 # BIOBLU_project
-Weights of YOLOv5 for waste detection.
 
-Weights of YOLOv5 for multiclass/material (plastic/metal/glass/paper) waste recognition.
+The following is a brief description and potential use of the waste detection and recognition models files described for the article: ''An Intelligent Hierarchical Cyber-Physical System for beach waste management: the BIOBLU case study.'' 
+
+Specifically: 
+
+* **best_detection.pt**:
+    * **Description**: This file includes the PyTorch model checkpoint, containing the parameters and weights of the trained YOLOv5 waste detection model.
+    * **Usage**: Developers or researchers can use this file to load the pre-trained model for waste detection in their applications or research projects.
+
+* **best_recognition.pt**:
+    * **Description**: Similar to "best_detection.pt," this file includes the PyTorch model checkpoint file, containing the parameters and weights of a trained YOLOv5 model used for multiclass/material (plastic/metal/glass/paper) waste recognition. 
+    * **Usage**: Developers or researchers can use this file to load the pre-trained model for multiclass/material waste recognition tasks.
+
+* **yolov5l.yaml**:
+    * **Description**: This YAML file likely contains configuration parameters for the YOLOv5 detection model, specifying the model architecture, hyperparameters, and data-related settings.
+    * **Usage**: Developers and researchers can use this YAML to configure and fine-tune the YOLOv5 model for specific tasks.
+
+* **yolov5n.yaml**:
+    * **Description**: Similar to "yolov5l.yaml," this is the YAML file associated with the YOLOv5 waste recognition model.
+    * **Usage**: Developers and researchers can use this YAML to configure and fine-tune the YOLOv5 model for specific tasks.
