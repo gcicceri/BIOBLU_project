@@ -19,3 +19,6 @@ Specifically:
 * **yolov5n.yaml**:
     * **Description**: Similar to "yolov5l.yaml," this is the YAML file associated with the YOLOv5 waste recognition model.
     * **Usage**: Developers and researchers can use this YAML to configure and fine-tune the YOLOv5 model for specific tasks.
+
+
+For the training and testing phases of the above-described detection and recognition models, we created and obtained a final dataset, using the proportions of 85% (Training set), 10% (Validation set) and 5% (testing set), respectively. The final dataset is available at the following open-access repository:  https://universe.roboflow.com/bioblu/merged_datasets
